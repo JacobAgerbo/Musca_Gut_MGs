@@ -6,6 +6,13 @@ The housefly (Musca domestica) is a fly of the suborder Cyclorrhapha. It possibl
 
 ## Bioinformatic processing
 
+For extended information of the bioinformatic processing, please find scripts and information in repository named **Bioinformatics**.
 
+The pipeline is illustrated below. In short, we generated both long (ONT) and short (Illumina) read data to increase completion of metagenomic-assembled genomes (MAGs), by hybrid assembly with *Flye* and *SPAdes*. Subsequently, contigs were automatically binned by *Metabat2* and manually refined using *anvi'o*.
 
-## Visualization
+![alt text](misc/Pipeline.jpg)
+
+## Analysis
+
+For extended information of the analytical process, please find scripts and information in repository named **Analysis**.
+
